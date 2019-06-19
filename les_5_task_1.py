@@ -11,7 +11,7 @@ Enterprise = namedtuple('Enterprise', 'enter_name, qu_1, qu_2, qu_3, qu_4')
 
 s = 0
 for i in range(n):
-    enter_name = tuple(input('Введите наименование предприятия: '))
+    enter_name = tuple(str.split(input('Введите наименование предприятия: ')))
     g = 0
     list_data_e = []
 
